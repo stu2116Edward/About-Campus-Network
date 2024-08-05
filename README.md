@@ -28,13 +28,13 @@ ss -tuln
 或者
 
 netstat -tuln
-# 使用lsof命令找到占用443端口的进程  
+使用lsof命令找到占用443端口的进程  
 
 sudo lsof -i :443
 使用命令将进程杀死
 
 sudo kill -9 <这里是对应端口的PID>
-# 假设找到的进程ID是1234，然后使用kill命令终止它  
+假设找到的进程ID是1234，然后使用kill命令终止它  
 
 sudo kill -9 1234
 
