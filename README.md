@@ -1,11 +1,10 @@
-# Campus Network
+# Campus Network  
 Use softether to skip campus network verification
-
 本教程采用Ubuntu系统
-首先查看服务端防火墙的状态
+首先查看服务端防火墙的状态  
 
 ufw status
-显示如下表示处于关闭状态
+显示如下表示处于关闭状态  
 
 root@iZbp1azy5ek8l30twb64etZ:~# ufw status
 Status: inactive
