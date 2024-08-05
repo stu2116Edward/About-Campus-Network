@@ -1,5 +1,6 @@
 # Campus Network  
-Use softether to skip campus network verification
+Use softether to skip campus network verification  
+
 本教程采用Ubuntu系统
 首先查看服务端防火墙的状态  
 
