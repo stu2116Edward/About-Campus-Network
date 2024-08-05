@@ -18,7 +18,7 @@ Status: inactive
 
 ufw disable  
 
-开启防火墙  ’
+开启防火墙  
 
 ufw enable  
 
