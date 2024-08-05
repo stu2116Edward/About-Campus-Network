@@ -63,6 +63,8 @@ make
 
 此后根据提示 所有选择的地方输入 1 并回车即可。  
 
+![bypass-auth_20210702015328](https://github.com/user-attachments/assets/1593e964-c204-4126-8c0e-fc1f9b9c6a07)  
+
 启用 vpnserver 服务：  
 
 ./vpnserver start  
@@ -70,5 +72,8 @@ make
 ./vpncmd  
 
 这里输入 1，然后键入两次回车  
+
+![bypass-auth_20210702015835](https://github.com/user-attachments/assets/8f41d81f-1bac-4d9d-8247-09d88f2e75a1)  
+
 至此服务端配置完成。
 
