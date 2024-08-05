@@ -29,12 +29,15 @@ sudo kill -9 <这里是对应端口的PID>
 sudo kill -9 1234
 
 服务端安装SoftEther VPN Server
+
 wget -N --no-check-certificate "https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.28-9669-beta/softether-vpnserver-v4.28-9669-beta-2018.09.11-linux-x64-64bit.tar.gz"
 
 国内服务器
+
 wget -N --no-check-certificate "http://47.106.20.4/softwares/softether-vpnserver-v4.28-9669-beta-2018.09.11-linux-x64-64bit.tar.gz"
 
 解压
+
 tar -zxvf softether-vpnserver-v4.28-9669-beta-2018.09.11-linux-x64-64bit.tar.gz
 
 cd vpnserver/
@@ -42,6 +45,7 @@ make
 此后根据提示 所有选择的地方输入 1 并回车即可。
 
 启用 vpnserver 服务：
+
 ./vpnserver start
 ./vpncmd
 这里输入 1，然后键入两次回车
