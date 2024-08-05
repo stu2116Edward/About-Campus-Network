@@ -138,3 +138,5 @@ make
 成功连接到互联网！  
 
 ![bypass-auth_20210702024444](https://github.com/user-attachments/assets/d297c07e-8a09-4f9e-b45a-abde435ef99d)  
+
+注意如果您的SoftEther DNS无法ping通那么可以在SoftEther VPN Server中修改动态DNS设置!  
