@@ -113,7 +113,6 @@ wget -N --no-check-certificate "http://47.106.20.4/softwares/softether-vpnserver
 
 ```
 tar -zxvf softether-vpnserver-v4.28-9669-beta-2018.09.11-linux-x64-64bit.tar.gz  
-
 ```
 
 
