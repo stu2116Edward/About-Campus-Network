@@ -204,9 +204,10 @@ http://47.106.20.4/softwares/openvpn-install-2.4.7-I607-Win10.exe
 
 注意如果您的SoftEther DNS无法ping通那么可以在SoftEther VPN Server中修改动态DNS设置!  
 
-使用OpenVPN时候可能遇到的问题
+使用OpenVPN时候可能遇到的问题  
+
 1.连接失败 查看日志报错：“There are no TAP-Windows adapters on this system ..... 
-下载tap-windows-9.21.1.exe就可以解决
+下载tap-windows-9.21.1.exe就可以解决  
 
 2.连接的时候显示已连接并分配ip，访问网页，无响应
 Win + r 输入 services.msc
