@@ -84,6 +84,20 @@ netstat -tuln
 sudo lsof -i :443  
 ```
 
+查看服务端53端口占用情况
+```
+sudo netstat -ltnup | grep 53
+```
+或者
+```
+sudo ss -ltnup | grep 53
+```
+
+关闭服务器的udp53端口
+```
+sudo systemctl stop systemd-resolved
+sudo systemctl disable systemd-resolved
+```
 
 使用命令将进程杀死  
 
@@ -91,6 +105,13 @@ sudo kill -9 <这里是对应端口的PID>
 假设找到的进程ID是1234，然后使用kill命令终止它  
 
 sudo kill -9 1234  
+
+安装依赖  
+
+```
+sudo apt-get update
+apt install make -y && apt install gcc -y
+```
 
 服务端安装 SoftEther VPN Server  
 
