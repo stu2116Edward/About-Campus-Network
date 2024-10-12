@@ -158,7 +158,11 @@ make
 ./vpnserver start  
 ```
 
-
+后台一直运行
+```
+screen -S vpnserver_session
+./vpnserver start
+```
 
 ```
 ./vpncmd  
