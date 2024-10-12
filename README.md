@@ -109,7 +109,7 @@ sudo kill -9 1234
 安装依赖  
 
 ```
-sudo apt update && sudo apt install make gcc -y
+sudo apt update && sudo apt install -y make gcc
 ```
 
 服务端安装 SoftEther VPN Server  
