@@ -84,21 +84,6 @@ netstat -tuln
 sudo lsof -i :443  
 ```
 
-查看服务端53端口占用情况
-```
-sudo netstat -ltnup | grep 53
-```
-或者
-```
-sudo ss -ltnup | grep 53
-```
-
-关闭服务器的udp53端口
-```
-sudo systemctl stop systemd-resolved
-sudo systemctl disable systemd-resolved
-```
-
 使用命令将进程杀死  
 
 sudo kill -9 <这里是对应端口的PID>
